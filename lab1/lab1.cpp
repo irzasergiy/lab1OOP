@@ -26,8 +26,8 @@ int main() {
     double b = b_function_4(x, y, z);
 
 
-    cout << "Ôóíêö³ÿ b[x, y, z] (âàð³àíò 4): " << b << endl;
-    cout << "Ôóíêö³ÿ a[x, y, z, b] (âàð³àíò 4): " << a_function_4(x, y, z, b) << endl;
+    cout << "b[x, y, z]: " << b << endl;
+    cout << "a[x, y, z, b]: " << a_function_4(x, y, z, b) << endl;
     
 
     for (double x = -1.0; x <= 1.0; x += 0.2) {
